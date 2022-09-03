@@ -1,0 +1,44 @@
+@media screen and (max-width: 700px) {
+   header .container1 {
+      display: flex;
+      flex-direction: column;
+   }
+
+   .filme-principal .container2 {
+      width: 80%;
+      padding: 0;
+   }
+
+   .filme-principal {
+      align-items: center;
+      justify-content: center;
+   }
+
+   .filme-principal .descricao {
+      display: none;
+   }
+
+   .botao1,
+   .botao2 {
+      margin-top: 10px;
+      width: 100%;
+   }
+
+   header .logo {
+      margin: 0;
+   }
+}
+
+@media screen and (max-width: 1082px) {
+   .botao1,
+   .botao2 {
+      margin-top: 10px;
+      width: 100%;
+   }
+}
+
+@media screen and (max-width: 341px) {
+   header nav a {
+      font-size: 12px;
+   }
+}
